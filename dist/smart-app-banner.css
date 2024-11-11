@@ -1,9 +1,9 @@
 .smartbanner-show {
-	margin-top: 80px;
+		margin-top: 80px;
 }
 
 .smartbanner-show .smartbanner {
-	display: block;
+display: block;
 }
 
 /** Default **/
@@ -15,7 +15,7 @@
 	width: 100%;
 	height: 80px;
 	line-height: 80px;
-	font-family: 'Helvetica Neue', sans-serif;
+	font-family: "Helvetica Neue", sans-serif;
 	background: #f4f4f4;
 	z-index: 9998;
 	-webkit-font-smoothing: antialiased;
@@ -32,7 +32,7 @@
 	display: inline-block;
 	vertical-align: middle;
 	margin: 0 5px 0 5px;
-	font-family: 'ArialRoundedMTBold', Arial;
+	font-family: "ArialRoundedMTBold", Arial;
 	font-size: 20px;
 	text-align: center;
 	color: #888;
@@ -145,7 +145,8 @@
 	background: #efefef;
 	background: linear-gradient(to bottom, #efefef, #dcdcdc);
 	border-radius: 3px;
-	box-shadow: inset 0 0 0 1px #bfbfbf, 0 1px 0 rgba(255, 255, 255, 0.6), 0 2px 0 rgba(255, 255, 255, 0.7) inset;
+	box-shadow: inset 0 0 0 1px #bfbfbf, 0 1px 0 rgba(255, 255, 255, 0.6),
+		0 2px 0 rgba(255, 255, 255, 0.7) inset;
 }
 
 .smartbanner-ios .smartbanner-button:active,
@@ -163,9 +164,9 @@
 
 /** Android **/
 .smartbanner-android {
-	background: #3d3d3d url(data:image/gif;base64,R0lGODlhCAAIAIABAFVVVf///yH5BAEHAAEALAAAAAAIAAgAAAINRG4XudroGJBRsYcxKAA7);
-	box-shadow: inset 0 4px 0 #88b131;
-	line-height: 82px;
+	background: #fff;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+	line-height: 80px;
 }
 
 .smartbanner-android .smartbanner-close {
@@ -174,10 +175,7 @@
 	height: 17px;
 	line-height: 17px;
 	margin-right: 7px;
-	color: #b1b1b3;
-	background: #1c1e21;
-	text-shadow: 0 1px 1px #000;
-	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.8) inset, 0 1px 1px rgba(255, 255, 255, 0.3);
+	color: #1c1e21;
 }
 
 .smartbanner-android .smartbanner-close:active,
@@ -191,22 +189,20 @@
 }
 
 .smartbanner-android .smartbanner-info {
-	color: #ccc;
-	text-shadow: 0 1px 2px #000;
+	color: #989898;
 }
 
 .smartbanner-android .smartbanner-title {
-	color: #fff;
+	color: #1c1e21;
 	font-weight: bold;
 }
 
 .smartbanner-android .smartbanner-button {
 	min-width: 12%;
-	color: #d1d1d1;
+	color: #fff;
 	padding: 0;
 	background: none;
 	border-radius: 0;
-	box-shadow: 0 0 0 1px #333, 0 0 0 2px #dddcdc;
 }
 
 .smartbanner-android .smartbanner-button:active,
@@ -218,8 +214,8 @@
 	text-align: center;
 	display: block;
 	padding: 0 10px;
-	background: #42b6c9;
-	background: linear-gradient(to bottom, #42b6c9, #39a9bb);
+	background: #286df6;
+	border-radius: 4px;
 	text-transform: none;
 	text-shadow: none;
 	box-shadow: none;
@@ -227,7 +223,7 @@
 
 .smartbanner-android .smartbanner-button-text:active,
 .smartbanner-android .smartbanner-button-text:hover {
-	background: #2ac7e1;
+	background: #286df69f;
 }
 
 /** Windows **/
@@ -275,7 +271,8 @@
 	background: #efefef;
 	background: linear-gradient(to bottom, #efefef, #dcdcdc);
 	border-radius: 3px;
-	box-shadow: inset 0 0 0 1px #bfbfbf, 0 1px 0 rgba(255, 255, 255, 0.6), 0 2px 0 rgba(255, 255, 255, 0.7) inset;
+	box-shadow: inset 0 0 0 1px #bfbfbf, 0 1px 0 rgba(255, 255, 255, 0.6),
+		0 2px 0 rgba(255, 255, 255, 0.7) inset;
 }
 
 .smartbanner-windows .smartbanner-button:active,
